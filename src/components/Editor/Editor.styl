@@ -1,0 +1,66 @@
+.Editor
+  padding 0 1em
+  background-color #fafafa
+  height 100vh
+  &__textarea
+    width 800px
+    height 300px
+    border-radius 5px
+    background-color #ffffff
+    border 1px solid #cccccc
+    border-collapse separate
+    position relative
+    padding 8px 13px 6px 13px
+    display block
+    box-sizing border-box
+  &__fields
+    > div
+      margin-bottom 1em
+      display flex
+      > label
+        align-self center
+        min-width 200px
+      input
+        align-self center
+        margin-right 0.5em
+        &[type="time"]
+          border-radius 5px
+          background-color #ffffff
+          border 1px solid #cccccc
+          border-collapse separate
+          position relative
+          padding 8px 20px 6px 20px
+          display block
+          box-sizing border-box
+          margin-right 1em
+          &:disabled
+            background-color #cccccc
+  &__heading
+    h1
+      margin 0
+      padding 1em 0
+  &__buttons
+    margin-top 1em
+    margin-left 200px
+    button
+      margin-right 1em
+  &__time
+    &--error
+      border 1px solid #d30031 !important
+      outline none
+  .Select
+    width 420px
+  .react-datepicker-wrapper
+    input
+      border-radius 5px
+      background-color #ffffff
+      border 1px solid #cccccc
+      border-collapse separate
+      position relative
+      padding 8px 13px 6px 13px
+      display block
+      width 420px
+      box-sizing border-box
+      &::-webkit-input-placeholder
+        font-size 16px
+        color: #aaaabd

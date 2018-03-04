@@ -1,0 +1,5 @@
+{
+  "name": "ErrorNotification",
+  "private": true,
+  "main": "./ErrorNotification.js"
+}
